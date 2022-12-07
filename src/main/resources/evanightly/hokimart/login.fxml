@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" spacing="5.0" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="evanightly.hokimart.LoginController">
+    <children>
+        <Label text="Username" />
+        <TextField fx:id="login"/>
+        <Label text="Password" />
+        <TextField fx:id="password"/>
+        <Button fx:id="submit" text="Submit" onAction="#submit"/>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
