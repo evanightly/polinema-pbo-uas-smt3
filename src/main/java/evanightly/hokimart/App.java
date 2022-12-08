@@ -1,5 +1,6 @@
 package evanightly.hokimart;
 
+import java.io.FileInputStream;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -20,10 +21,11 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("login"), 640, 480);
+        scene = new Scene(loadFXML("login"), 640, 380);
         stage.setScene(scene);
+        stage.getIcons().add(new Image(new FileInputStream("\"/imagesstageicon.png\"")));
         stage.setTitle("HokiMart V0.1");
-        stage.getIcons().add(new Image("https://example.com/javaicon.png"));
+//        stage.getIcons().add(new Image("https://cdn-icons-png.flaticon.com/128/2111/2111628.png"));
         stage.show();
     }
 

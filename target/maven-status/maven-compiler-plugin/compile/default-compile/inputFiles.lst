@@ -1,5 +1,14 @@
 D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\evanightly\hokimart\EmployeeController.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\Transaction.java
 D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\evanightly\hokimart\LoginController.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\Item.java
 D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\module-info.java
-D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\db\Connect.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\IManager.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\Category.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\Manager.java
 D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\evanightly\hokimart\App.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\Detail_Transaction.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\ICashier.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\Employee.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\model\Cashier.java
+D:\Libraries\Documents\NetBeansProjects\HokiMart\src\main\java\db\Connect.java
