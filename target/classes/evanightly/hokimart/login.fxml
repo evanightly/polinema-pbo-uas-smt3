@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.VBox?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
-
-<VBox xmlns:fx="http://javafx.com/fxml/1" spacing="5.0" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="evanightly.hokimart.LoginController">
+<?import javafx.scene.layout.* ?>
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="evanightly.hokimart.LoginController" style="-fx-background-color: #fff;">
     <children>
         <Label text="Username" />
-        <TextField fx:id="login"/>
+        <TextField fx:id="username" style="-fx-background-color: -fx-text-box-border, -fx-control-inner-background; -fx-padding: 8px, 20px, 8px, 20px" />
         <Label text="Password" />
-        <TextField fx:id="password"/>
-        <Button fx:id="submit" text="Submit" onAction="#submit"/>
+        <PasswordField fx:id="password" style="-fx-background-color: -fx-text-box-border, -fx-control-inner-background; -fx-padding: 8px, 20px, 8px, 20px" />
+        <Button fx:id="submit" text="Submit" onAction="#submit" style="-fx-background-color: #4adede;" textFill="#fff"  />
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

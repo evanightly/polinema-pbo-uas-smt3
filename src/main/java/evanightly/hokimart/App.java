@@ -7,6 +7,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import javafx.scene.image.Image;
+import javafx.scene.paint.Color;
+import javafx.stage.StageStyle;
 
 /**
  * JavaFX App
@@ -20,6 +23,7 @@ public class App extends Application {
         scene = new Scene(loadFXML("login"), 640, 480);
         stage.setScene(scene);
         stage.setTitle("HokiMart V0.1");
+        stage.getIcons().add(new Image("https://example.com/javaicon.png"));
         stage.show();
     }
 
