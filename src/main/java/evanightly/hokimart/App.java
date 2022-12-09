@@ -21,9 +21,8 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("login"), 640, 380);
+        scene = new Scene(loadFXML("login"), 640, 360);
         stage.setScene(scene);
-        stage.getIcons().add(new Image(new FileInputStream("\"/imagesstageicon.png\"")));
         stage.setTitle("HokiMart V0.1");
 //        stage.getIcons().add(new Image("https://cdn-icons-png.flaticon.com/128/2111/2111628.png"));
         stage.show();

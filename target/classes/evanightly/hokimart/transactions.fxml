@@ -11,31 +11,27 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evanightly.hokimart.EmployeeController">
+<VBox spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evanightly.hokimart.TransactionController">
     <children>
-      <GridPane prefHeight="0.0" prefWidth="602.0">
+      <GridPane prefHeight="1.0" prefWidth="602.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
         <rowConstraints>
-            <RowConstraints minHeight="10.0" prefHeight="30.0" />
-          <RowConstraints />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
+            <Label alignment="TOP_LEFT" text="Transactions">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
               <Button fx:id="secondaryButton" alignment="CENTER_RIGHT" onAction="#logout" style="-fx-background-color: #ff0000;" text="Logout" textFill="WHITE" GridPane.columnIndex="1">
                <font>
                   <Font name="Arial" size="12.0" />
                </font>
             </Button>
-            <Label alignment="TOP_LEFT" text="Employees">
-               <font>
-                  <Font name="Arial" size="16.0" />
-               </font>
-               <GridPane.margin>
-                  <Insets />
-               </GridPane.margin>
-            </Label>
          </children>
          <VBox.margin>
             <Insets bottom="10.0" />
@@ -43,11 +39,12 @@
       </GridPane>
         <TableView fx:id="employeeTable" prefWidth="602.0">
             <columns>
-                <TableColumn prefWidth="100" style="-fx-background-color: white;" text="Name" />
-                <TableColumn prefWidth="100" style="-fx-background-color: white;" text="Age" />
-                <TableColumn prefWidth="102.0" style="-fx-background-color: white;" text="Salary" />
-                <TableColumn prefWidth="198.0" style="-fx-background-color: white;" text="Years Experienced" />                
-                <TableColumn prefWidth="100" style="-fx-background-color: white;" text="Options" />
+                <TableColumn prefWidth="100" style="-fx-background-color: white;" text="ID Transaction" />
+                <TableColumn prefWidth="100" style="-fx-background-color: white;" text="Employee" />
+                <TableColumn prefWidth="102.0" style="-fx-background-color: white;" text="Customer Name" />
+                <TableColumn prefWidth="117.0" style="-fx-background-color: white;" text="Transaction Date" />
+            <TableColumn prefWidth="90.0" style="-fx-background-color: white;" text="Total" />                
+                <TableColumn prefWidth="92.0" style="-fx-background-color: white;" text="Options" />
             </columns>
         </TableView>
     </children>

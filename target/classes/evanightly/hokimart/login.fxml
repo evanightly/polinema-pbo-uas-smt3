@@ -11,11 +11,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox prefHeight="365.0" prefWidth="639.0" spacing="10" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evanightly.hokimart.LoginController">
+<HBox prefHeight="365.0" prefWidth="639.0" spacing="10.0" style="-fx-background-color: #fff;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evanightly.hokimart.LoginController">
     <children>
       <VBox prefHeight="100.0" prefWidth="200.0">
          <children>
-            <ImageView fx:id="image" fitHeight="600.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="image" fitHeight="375.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@book4.jpg" />
                </image>
@@ -58,9 +58,9 @@
                </padding>
             </Button>
          </children>
+         <HBox.margin>
+            <Insets bottom="20.0" left="10.0" right="20.0" top="20.0" />
+         </HBox.margin>
       </VBox>
     </children>
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
 </HBox>
